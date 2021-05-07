@@ -1,0 +1,70 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.caja{
+    width: 200px;
+    height: 200px;
+    background-color: aqua;
+    margin: 20px;
+}
+
+
+
+/*
+POSICION ESTATICA
+POSCION RELATIVA
+POSCISION ABSOLUTA
+POSCISION FIJA
+POSCISION FLOTANTE
+*/
+
+ /*LEFT / TOP / RIGHT / BOTTOM*/
+
+/*Left = izquierda Top= arriva Right = Derecha Bottom = Abajo*/
+
+
+/*LA RELATIVA MUEVE LA CAJA segun le digamos*/
+
+.relativa{
+    background-color: blue ;
+    position: relative;
+    left: 245px;
+    top: 30px;
+}
+
+/*LA ABSOLUTA SE MUEVE DEPENDIENDO AL BODY y se vielve invisible para las demas cosas*/
+
+.absoluta{
+    background-color: chartreuse;
+    position: absolute;
+    right: 20px; /*Se mueva 20px dependiendo el body*/
+    top: 50px;
+}
+
+/*La fija o fixed fija un elemento en pantalla*/
+
+.fija{
+    background-color: chocolate;
+    position: fixed;
+    right: 45%;
+    top: 7%;
+
+}
+
+/*POSICIONAMOS DEPENDIENDO EL PADRE UN CONTENEDOR*/
+
+.padre{
+    width: 500px;
+    height: 500px;
+    background-color: crimson;
+    position: relative; /*siempre relative*/
+}
+
+.especial{
+    background-color: black;
+    position: absolute;
+    left: 10px;
+    top: 45px;
+}
